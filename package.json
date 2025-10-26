@@ -1,0 +1,24 @@
+{
+  "name": "krnl-counter-test",
+  "version": "1.0.0",
+  "description": "Simple Counter contract test project for KRNL CLI",
+  "type": "module",
+  "scripts": {
+    "deploy": "./krnl-setup.sh",
+    "interact": "node counter-interact.js",
+    "test": "node counter-interact.js"
+  },
+  "keywords": [
+    "krnl",
+    "foundry",
+    "sepolia",
+    "smart-contract",
+    "counter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "ethers": "^6.15.0"
+  }
+}
